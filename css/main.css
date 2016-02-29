@@ -3,6 +3,7 @@
 html {
     color: #222;
     font-size: 1em;
+	font-family: 'Arimo', sans-serif;
     line-height: 1.4;
 }
 
@@ -64,25 +65,32 @@ body {
 
 h1 {
 	font-size: 32px;
-	font-weight: normal;
-	color: #787474;
+	font-weight: bold;
+	color: #3b3b3b;
 	padding: 0;
 	text-align: center;
 }
 
 h2 {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 	color: #787474;
 }
 
 p {
-	font-size: 12px;
+	font-size: 14px;
 	color: #787474;
+	line-height: 2;
 }
 
 img {
 	margin: 10px 0px 10px 0px;
+}
+
+li
+{
+	color: #787474;
+	font-size: 14px;
 }
 
 .left
@@ -95,6 +103,16 @@ img {
 {
 	float: right;
 	width: 40%;
+	background-color: #3b3b3b;
+	color: white;
+	border-radius: 4px;
+	padding: 0 10px 10px 10px;
+	text-align: center;
+}
+
+.right h2
+{
+	color: white;
 }
 
 .clear
@@ -116,22 +134,22 @@ img {
 	margin: 10px 0px 10px 0px;
 }
 
-.download
+.right a
 {
-	background-color: #3b3b3b;
-	line-height: 35px;
 	color: white;
-	font-size: 16px;
-	text-align: center;
-	vertical-align: middle;
-	border-radius: 4px;
-	height: 40px;
-	width: 100%;
+	font-size: 14px;
 }
 
-.download a
+.right a:link
 {
 	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.right a:hover
+{
+	text-decoration: underline;
 }
 
 /* ==========================================================================
