@@ -99,15 +99,19 @@ li
 	width: 55%;
 }
 
+.infobox
+{
+	background-color: #3b3b3b;
+	color: white;
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+}
+
 .right
 {
 	float: right;
 	width: 40%;
-	background-color: #3b3b3b;
-	color: white;
-	border-radius: 4px;
-	padding: 0 10px 10px 10px;
-	text-align: center;
 }
 
 .right h2
