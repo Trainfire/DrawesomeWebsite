@@ -1,9 +1,0 @@
-{
-  "HostUrl": "ws://0.0.0.0:8181",
-  "AdminPassword": "doubleButts.exe",
-  "MinPlayers": 3,
-  "MaxPlayers": 8,
-  "MaxRooms": 1,
-  "NameMinChars": 3,
-  "NameMaxChars": 24
-}
