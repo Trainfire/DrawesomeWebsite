@@ -44,10 +44,9 @@ for ($i = 0; $i < $count; $i++) {
 }
  
 // Bring it all together
-// for ($j = 0; $j < $count; $j++) {
-  // $d = array_combine($keys, $data[$j]);
-  // $newArray[$j] = $d;
-// }
+for ($j = 0; $j < $count; $j++) {
+  $newArray[$j] = $data[$j];
+}
  
 // Print it out as JSON
 echo json_encode($newArray);
