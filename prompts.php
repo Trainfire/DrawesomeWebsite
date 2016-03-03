@@ -37,7 +37,7 @@ foreach ($labels as $label) {
 }
  
 // Add Ids, just in case we want them later
-// $keys[] = 'id';
+$keys[] = 'id';
  
 for ($i = 0; $i < $count; $i++) {
   $data[$i][] = $i;
