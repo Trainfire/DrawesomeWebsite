@@ -36,18 +36,7 @@ foreach ($labels as $label) {
   $keys[] = $label;
 }
  
-// Add Ids, just in case we want them later
-$keys[] = 'id';
- 
-for ($i = 0; $i < $count; $i++) {
-  $data[$i][] = $i;
-}
- 
-// Bring it all together
-for ($j = 0; $j < $count; $j++) {
-  $d = array_combine($keys, $data[$j]);
-  $newArray[$j] = $d;
-}
+
  
 // Print it out as JSON
 echo json_encode($newArray);
