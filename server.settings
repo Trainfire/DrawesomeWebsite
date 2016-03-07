@@ -4,7 +4,7 @@
   "MaxPlayers": 8,
   "MaxRooms": 1,
   "NameMinChars": 3,
-  "NameMaxChars": 24
+  "NameMaxChars": 24,
   "KickAfkPlayers": true,
   "TimeTillAfk": 10.0
 }
